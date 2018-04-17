@@ -13,3 +13,6 @@ The Forge API provides access to services via a RESTful HTTP interface.
 4. Compile assets - `gulp assets`
 5. Run the development server - `npm start`
 6. Test - `npm test`
+
+## Excitement:
+![the forge](https://gph.is/1rUACgs)
