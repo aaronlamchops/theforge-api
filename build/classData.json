@@ -1,0 +1,259 @@
+[
+  {
+    "id": "1",
+    "name": "barbarian",
+    "hitDice": "1d12",
+    "proficiencies": {
+        "armor": [
+            "light armor",
+            "medium armor"
+        ],
+        "weapons": [
+            "simple weapons",
+            "martial weapons"
+        ],
+        "savingThrows": [
+            "STR",
+            "CON"
+        ],
+        "skillProficiences": {
+            "chooseAmount": "2",
+            "skills": [
+                "animal handling",
+                "athletics",
+                "Intimidation", 
+                "Nature", 
+                "Perception", 
+                "Survival"
+            ]
+        }
+    },
+    "startEquipment": {
+        "choices": [
+            {
+                "action": "1",
+                "decision": [
+                    {
+                        "option": "1",
+                        "item": "greataxe"
+                    },
+                    {
+                        "option": "2",
+                        "item": "any martial melee"
+                    }
+                ]
+            },
+            {
+                "action": "2",
+                "decision": [
+                    {
+                        "option": "1",
+                        "item": "two handaxes"
+                    },
+                    {
+                        "option": "2",
+                        "item": "any simple weapon"
+                    }
+                ]
+            }
+        ],
+        "other": [
+            "explorer's pack",
+            "four javelins"
+        ]
+    },
+    "features": [
+        {
+            "name": "rage",
+            "description": "In battle, you fight with primal ferocity. On Your Turn, you can enter a rage as a Bonus Action. \nWhile raging, you gain the following benefits if you aren't wearing heavy armor: \n- You have advantage on Strength Checks and Strength saving throws. \n- When you make a melee weapon Attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level. \n- You have Resistance to bludgeoning, piercing, and slashing damage. \nIf you are able to cast Spells, you can't cast them or concentrate on them while raging. \nYour rage lasts for 1 minute. It ends early if you are knocked Unconscious or if Your Turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on Your Turn as a Bonus Action. \nOnce you have raged the maximum number of times for your barbarian level, you must finish a Long Rest before you can rage again. You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.",
+            "level": [
+                "1",
+                "3",
+                "6",
+                "12",
+                "17"
+            ]
+        },
+        {
+            "name": "unarmored defense",
+            "description": "While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a Shield and still gain this benefit.",
+            "level": [
+                "1"
+            ]
+        },
+        {
+            "name": "danger sense",
+            "description": "At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and Spells. To gain this benefit, you can't be Blinded, Deafened, or Incapacitated.",
+            "level": [
+                "2"
+            ]
+        },
+        {
+            "name": "reckless attack",
+            "description": "Starting at 2nd level, you can throw aside all concern for defense to Attack with fierce desperation. When you make your first Attack on Your Turn, you can decide to Attack recklessly. Doing so gives you advantage on melee weapon Attack rolls using Strength during this turn, but Attack rolls against you have advantage until your next turn.",
+            "level": [
+                "2"
+            ]
+        },
+        {
+            "name": "primal path",
+            "description": "At 3rd level, you choose a path that shapes the nature of your rage, such as the Path of the Berserker. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.",
+            "level": [
+                "3",
+                "6",
+                "10",
+                "14"
+            ]
+        },
+        {
+            "name": "ability score improvement",
+            "description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+            "level": [
+                "4",
+                "8",
+                "12",
+                "16",
+                "19"
+            ]
+        },
+        {
+            "name": "extra attack",
+            "description": "Beginning at 5th level, you can Attack twice, instead of once, whenever you take the Attack action on Your Turn.",
+            "level": [
+                "5"
+            ]
+        },
+        {
+            "name": "fast movement",
+            "description": "Starting at 5th level, your speed increases by 10 feet while you aren't wearing Heavy Armor.",
+            "level": [
+                "5"
+            ]
+        },
+        {
+            "name": "feral instinct",
+            "description": "By 7th level, your instincts are so honed that you have advantage on initiative rolls. Additionally, if you are surprised at the beginning of Combat and aren't Incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.",
+            "level": [
+                "7"
+            ]
+        },
+        {
+            "name": "brutal critical",
+            "description": "Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee Attack. This increases to two additional dice at 13th level and three additional dice at 17th level.",
+            "level": [
+                "9",
+                "13",
+                "17"
+            ]
+        },
+        {
+            "name": "relentless rage",
+            "description": "Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead. Each time you use this feature after the first, the DC increases by 5. When you finish a short or Long Rest, the DC resets to 10.",
+            "level": [
+                "11"
+            ]
+        },
+        {
+            "name": "persistent rage",
+            "description": "Beginning at 15th level, your rage is so fierce that it ends early only if you fall Unconscious or if you choose to end it.",
+            "level": [
+                "15"
+            ]
+        },
+        {
+            "name": "indomitable might",
+            "description": "Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.",
+            "level": [
+                "18"
+            ]
+        },
+        {
+            "name": "primal champion",
+            "description": "At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.",
+            "level": [
+                "20"
+            ]
+        }
+    ],
+    "table": [
+        {
+            "level": "1",
+            "proficiencyBonus": "+2",
+            "features": [
+                "rage",
+                "unarmored defense"
+            ],
+            "other": [
+                {
+                    "rages": "2"
+                },
+                {
+                    "rageDamage": "+2"
+                }
+            ]
+        },
+        {
+            "level": "2",
+            "proficiencyBonus": "+2",
+            "features": [
+                "reckless attack",
+                "danger sense"
+            ],
+            "other": [
+                {
+                    "rages": "2"
+                },
+                {
+                    "rageDamage": "+2"
+                }
+            ]
+        },
+        {
+            "level": "3",
+            "proficiencyBonus": "+2",
+            "features": [
+                "primal path"
+            ],
+            "other": [
+                {
+                    "rages": "3"
+                },
+                {
+                    "rageDamage": "+2"
+                }
+            ]
+        },
+        {
+            "level": "4",
+            "proficiencyBonus": "+2",
+            "features": [
+                "ability score improvement"
+            ],
+            "other": [
+                {
+                    "rages": "3"
+                },
+                {
+                    "rageDamage": "+2"
+                }
+            ]
+        },
+        {
+            "level": "5",
+            "proficiencyBonus": "+3",
+            "features": [
+                "extra attack",
+                "fast movement"
+            ],
+            "other": [
+                {
+                    "rages": "2"
+                },
+                {
+                    "rageDamage": "+2"
+                }
+            ]
+        }
+    ]
+  }
+]
