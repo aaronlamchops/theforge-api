@@ -20,7 +20,7 @@ describe('GET api/v1/races', () => {
       });
   });
 
-  // unit test to check if Barbarian is included in JSON array
+  // unit test to check if Elf is included in JSON array
   it('should include Elf', () => {
     return chai.request(app).get('/api/v1/races')
       .then(res => {
