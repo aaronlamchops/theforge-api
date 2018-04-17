@@ -41,3 +41,23 @@ describe('GET api/v1/races', () => {
   });
 
 });
+
+describe('GET api/v1/heroes/:id', () => {
+
+  it('responds with single JSON object', () => {
+    return chai.request(app).get('/api/v1/races/1')
+      .then(res => {
+        expect(res.status).to.equal(200);
+        expect(res).to.be.json;
+        expect(res.body).to.be.an('object');
+      });
+  });
+
+  it('should return dwarf', () => {
+    return chai.request(app).get('/api/v1/races/1')
+      .then(res => {
+        expect(res.body.race.name).to.equal('dwarf');
+      });
+  });
+
+});

@@ -15,8 +15,31 @@ export class RaceRouter {
         res.send(Races);
     }
 
+    public getOne(req: Request, res: Response, next: NextFunction) {
+        let query = parseInt(req.params.id);
+        let race = Races.find((r) =>{
+            return r.id == query;
+        });
+        if (race) {
+          res.status(200)
+            .send({
+              message: 'Success',
+              status: res.status,
+              race
+            });
+        }
+        else {
+          res.status(404)
+            .send({
+              message: 'No race found with the given id.',
+              status: res.status
+            });
+        }
+    }
+
     public init() {
         this.router.get('/', this.getAll);
+        this.router.get('/:id', this.getOne);
     }
 
 }
