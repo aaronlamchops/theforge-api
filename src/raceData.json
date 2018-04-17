@@ -1,0 +1,44 @@
+[
+    {
+        "id": "01",
+        "name": "dwarf",
+        "abilityScore": {
+            "ability": "CON",
+            "value": "2"
+        },
+        "age": "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.",
+        "alignment": "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.",
+        "size": "medium",
+        "sizeDescription": "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
+        "speed": "25",
+        "language": "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
+    },
+    {
+        "id": "02",
+        "name": "elf",
+        "abilityScore": {
+            "ability": "DEX",
+            "value": "2"
+        },
+        "age": "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+        "alignment": "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not. The drow are an exception; their exile has made them vicious and dangerous. Drow are more often evil than not.",
+        "size": "medium",
+        "sizeDescription": "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
+        "speed": "30",
+        "language": "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+    },
+    {
+        "id": "03",
+        "name": "halfling",
+        "abilityScore": {
+            "ability": "DEX",
+            "value": "2"
+        },
+        "age": "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
+        "alignment": "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.",
+        "size": "small",
+        "sizeDescription": "Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.",
+        "speed": "25",
+        "language": "You can speak, read, and write Common and Halfling. The Halfling language isn’t secret, but halflings are loath to share it with others. They write very little, so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling."
+    }
+]

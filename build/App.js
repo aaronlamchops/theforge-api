@@ -4,6 +4,7 @@ const express = require("express");
 const logger = require("morgan");
 const bodyParser = require("body-parser");
 const ClassRouter_1 = require("./routes/ClassRouter");
+const RaceRouter_1 = require("./routes/RaceRouter");
 // Creates and configures an ExpressJS web server.
 class App {
     //Run configuration methods on the Express instance.
@@ -33,6 +34,7 @@ class App {
         // routes in use
         this.express.use('/', router);
         this.express.use('/api/v1/classes', ClassRouter_1.default);
+        this.express.use('/api/v1/races', RaceRouter_1.default);
     }
 }
 exports.default = new App().express;

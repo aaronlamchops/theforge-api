@@ -4,6 +4,7 @@ import * as logger from 'morgan';
 import * as bodyParser from 'body-parser';
 
 import ClassRouter from './routes/ClassRouter';
+import RaceRouter from './routes/RaceRouter';
 
 // Creates and configures an ExpressJS web server.
 class App {
@@ -44,6 +45,7 @@ class App {
     // routes in use
     this.express.use('/', router);
     this.express.use('/api/v1/classes', ClassRouter);
+    this.express.use('/api/v1/races', RaceRouter);
   }
 
 }
