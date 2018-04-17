@@ -15,4 +15,4 @@ The Forge API provides access to services via a RESTful HTTP interface.
 6. Test - `npm test`
 
 ## Excitement:
-![the forge](https://gph.is/1rUACgs)
+![the forge](https://media.giphy.com/media/q0eh4TU8OMXRu/giphy.gif)
