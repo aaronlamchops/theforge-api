@@ -5,12 +5,14 @@ const JSON_FILES = ['src/*.json', 'src/**/*.json'];
 // pull in the project TypeScript config
 const tsProject = ts.createProject('tsconfig.json');
 
+// Transpile project and deliver it to the directory 'build'
 gulp.task('scripts', () => {
   const tsResult = tsProject.src()
   .pipe(tsProject());
   return tsResult.js.pipe(gulp.dest('build'));
 });
 
+// Tell Gulp to watch our source .ts files, so that our transpiled JavaScript automatically gets rebuilt upon file changes
 gulp.task('watch', ['scripts'], () => {
   gulp.watch('src/**/*.ts', ['scripts']);
 });
